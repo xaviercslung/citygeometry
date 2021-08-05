@@ -58,7 +58,7 @@
 
 <main id="main">
     <section class="text-center mt-5 bg-light">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <h1>Evaluating the Geometric Properties of 2D Urban Layouts Using a Data-Driven, Deep Learning Approach</h1>
             <p class="pt-5">
                 <a href="https://share.streamlit.io/lazfishing/manhattan-city-layouts" class="btn btn-outline-success"
@@ -70,43 +70,47 @@
     <!-- ======= Features Section ======= -->
     <section class="features">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h2><b>Problem Statement</b></h2>
             </div>
-            <p>By 2050, more than seven billion people will live in cities - nearly double today’s urban
-                population. There is an urgent need to scale good urban layouts. But urban planners still do not have
-                the tools to objectively measure, compare and evaluate urban layouts. Good urban design is difficult to
-                scale.</p>
-            <p class="mb-5">
-                Urban planners widely use geometric properties to understand cities, but current methods of quantifying
-                city geometry are very limited. To objectively measure, compare and evaluate urban designs, urban
-                planners need a standard metric to quantify the geometric properties of 2D urban layouts.</p>
-
-            <div class="section-title">
+            <div class="row" data-aos="fade-up">
+                <p>By 2050, more than seven billion people will live in cities - nearly double today’s urban
+                    population. There is an urgent need to scale good urban layouts. But urban planners still do not have
+                    the tools to objectively measure, compare and evaluate urban layouts. Good urban design is difficult to
+                    scale.</p>
+                <p class="mb-4">
+                    Urban planners widely use geometric properties to understand cities, but current methods of quantifying
+                    city geometry are very limited. To objectively measure, compare and evaluate urban designs, urban
+                    planners need a standard metric to quantify the geometric properties of 2D urban layouts.</p>
+            </div>
+            <hr class="mt-4">
+            <div class="section-title" data-aos="fade-up">
                 <h2><b>Research Objective</b></h2>
             </div>
 
             <div class="row" data-aos="fade-up">
                 <div class="col-md-5 order-md-2">
-                    <img src="assets/img/urbanlayout.jpeg" class="img-fluid" style="max-height: 90%"
-                         alt="project_overview">
+                    <div class="text-center" data-aos="fade-up">
+                        <img src="assets/img/urbanlayout.jpeg" class="img-fluid" style="max-height: 13.8em; width:auto"
+                             alt="project_overview">
+                    </div>
                 </div>
-                <div class="col-md-7 order-2 order-md-1 pt-xl-4 my-xl-3">
+                <div class="col-md-7 order-2 order-md-1">
                     <ul>
-                        <li class="my-xl-3"> How can we develop a standard metric to quantify the geometric
+                        <li class="mb-xl-3"> How can we develop a standard metric to quantify the geometric
                             properties of city layouts?
                         </li>
-                        <li class="my-xl-3"> How can we objectively classify urban typologies based on their
+                        <li class="my-xl-5"> How can we objectively classify urban typologies based on their
                             complex geometries?
                         </li>
-                        <li class="my-xl-3">How can we generate composite urban layouts that blend distinct urban
+                        <li class="my-xl-5">How can we generate composite urban layouts that blend distinct urban
                             layouts?
                         </li>
                     </ul>
                 </div>
             </div>
-
-            <div class="section-title pt-3">
+            <hr class="mt-4">
+            <div class="section-title" data-aos="fade-up">
                 <h2><b>Project Overview</b></h2>
             </div>
 
@@ -114,7 +118,7 @@
                 <div class="col-md-5 col-sm-12">
                     <img src="assets/img/overview.png" class="img-fluid" alt="project_overview">
                 </div>
-                <div class="col-md-7 col-sm-12 my-xl-4">
+                <div class="col-md-7 col-sm-12">
                     <ul>
                         <li class="my-xl-1"><b>Data preparation and model engineering.</b> Encode geometric features of
                             a geo-referenced
